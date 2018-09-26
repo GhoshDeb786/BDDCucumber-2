@@ -1,0 +1,4 @@
+Runner\FreeCRM.class
+Runner\FreeCRMDataTable.class
+stepDefinition\FreeCRMDataTable.class
+stepDefinition\FreeCRM.class
