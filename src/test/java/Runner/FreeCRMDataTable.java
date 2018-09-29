@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions( features = "C:/Users/INFOCOM/DebBDD/BDDAutomation2/src/test/java/Features/FreeCRMDataTable.feature",
                  glue = {"stepDefinition"},
                  plugin = {"pretty","html:test-output","json:json-output/cucumber.json","junit:junit-output/cucumber.junit"},
-                 dryRun = true,
+                 dryRun = false,
                  monochrome = true,
                  strict = true
 		)
